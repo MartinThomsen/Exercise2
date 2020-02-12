@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="Door.cs" />
     <Compile Include="DoorController.cs" />
+    <Compile Include="DoorStatusSubject.cs" />
     <Compile Include="EntryNotification.cs" />
+    <Compile Include="IDoorStatusObserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserValidation.cs" />

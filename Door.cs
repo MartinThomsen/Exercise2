@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace DoorControl
 {
-   public class Door
-    {
-        public void Open()
+   public class Door : DoorStatusSubject
+   {
+       public bool open;   
+        public void OpenDoor()
         {
-
+            open = true;
+            Notify();
         }
+
+        public void CloseDoor()
+        {
+            open = false;
+            Notify();
+        }
+        
     }
 }
