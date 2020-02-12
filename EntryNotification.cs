@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DoorControl
 {
-    class EntryNotification
+   public class EntryNotification
     {
+        public void NotifyEntryGranted()
+        {
+
+        }
     }
 }

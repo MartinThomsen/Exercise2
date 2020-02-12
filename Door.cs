@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace DoorControl
 {
-    class Door
+   public class Door
     {
+        public void Open()
+        {
+
+        }
     }
 }

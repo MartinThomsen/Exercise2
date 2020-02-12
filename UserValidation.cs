@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace DoorControl
 {
-    class UserValidation
+   public class UserValidation
     {
+        public bool ValidateEntryRequest(int id)
+        {
+            if (id == 1234)
+            {
+                return true;
+            }
+            else return false;
+        }
     }
 }
