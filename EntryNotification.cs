@@ -8,5 +8,14 @@ namespace DoorControl
 {
     class EntryNotification
     {
+        public void NotifyEntryDenied()
+        {
+            Console.WriteLine("Denied");
+        }
+
+        public void NotifyEntryGranted()
+        {
+            Console.WriteLine("Granted");
+        }
     }
 }
